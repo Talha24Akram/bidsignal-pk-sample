@@ -1,0 +1,153 @@
+{
+  "schema_version": 2,
+  "product": "BidSignal PK",
+  "lane": "Pakistan public-sector ICT procurement intelligence",
+  "policy": {
+    "allowed": "Fetch only the public HTTP(S) listing pages below at low frequency, without authentication or paywall bypass.",
+    "not_allowed": "Do not bulk-download tender or plan attachments, defeat bot controls, scrape private portals, republish copyrighted documents, or submit bids.",
+    "provenance": "Every item keeps the originating listing URL, observed timestamp, raw row text, and any public detail/document link for buyer verification."
+  },
+  "sources": [
+    {
+      "id": "ppra-active-computer",
+      "name": "Federal PPRA / EPADS active tenders — computer",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal public-sector tender notices and recent closures matching computer, across the first two visible pages",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-software",
+      "name": "Federal PPRA / EPADS active tenders — software",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=software&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal public-sector tender notices and recent closures matching software",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-network",
+      "name": "Federal PPRA / EPADS active tenders — network",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal public-sector tender notices and recent closures matching network and connectivity",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-server",
+      "name": "Federal PPRA / EPADS active tenders — server",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=server&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal public-sector tender notices and recent closures matching server and data-centre equipment",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-cybersecurity",
+      "name": "Federal PPRA / EPADS active tenders — cybersecurity",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cybersecurity&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal notices using cybersecurity language, including security tooling and services",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-cloud",
+      "name": "Federal PPRA / EPADS active tenders — cloud",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cloud&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal notices using cloud and hosted-service language",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-telecom",
+      "name": "Federal PPRA / EPADS active tenders — telecom",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=telecom&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal telecommunications and communications-infrastructure notices",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-data",
+      "name": "Federal PPRA / EPADS active tenders — data",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=data&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal data, analytics, information-system and data-centre notices",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-active-information-system",
+      "name": "Federal PPRA / EPADS active tenders — information system",
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=information%20system&page=1&tender_type=1",
+      "kind": "ppra_table",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Federal information-system and application procurement notices",
+      "terms_note": "Public listing page; bounded page-1/page-2 GETs per refresh, no login, low-rate fetch."
+    },
+    {
+      "id": "ppra-procurement-plans",
+      "name": "Federal PPRA / EPMS public procurement plans",
+      "url": "https://epms.ppra.gov.pk/public/procurement-plans",
+      "kind": "ppra_procurement_plan_table",
+      "pagination": "next_link",
+      "max_pages": 2,
+      "confidence": 1.0,
+      "cadence": "daily",
+      "coverage": "Published federal procurement plans, including earlier ICT demand signals before an advertised tender",
+      "terms_note": "Public listing metadata only; follow at most one explicit next-page link and do not fetch plan documents."
+    },
+    {
+      "id": "moitt-tenders",
+      "name": "Ministry of IT & Telecommunication — tenders",
+      "url": "https://moitt.gov.pk/Tenders",
+      "kind": "generic_table",
+      "confidence": 0.95,
+      "cadence": "daily",
+      "coverage": "Ministry ICT, AI, hardware, software, and related procurement notices",
+      "terms_note": "Public ministry tender index; collect listing metadata only."
+    },
+    {
+      "id": "nitb-tenders",
+      "name": "National IT Board — tenders",
+      "url": "https://www.nitb.gov.pk/tender.html",
+      "kind": "generic_table",
+      "confidence": 0.95,
+      "cadence": "daily",
+      "coverage": "National government IT services and managed-service opportunities",
+      "terms_note": "Public tender index; collect listing metadata only."
+    },
+    {
+      "id": "planning-tenders",
+      "name": "Ministry of Planning — tenders & procurement",
+      "url": "https://pc.gov.pk/web/tender",
+      "kind": "planning_list",
+      "confidence": 0.95,
+      "cadence": "daily",
+      "coverage": "Current and archived notices, including IT equipment/networking and software",
+      "terms_note": "Public ministry tender index; collect listing metadata only."
+    }
+  ]
+}

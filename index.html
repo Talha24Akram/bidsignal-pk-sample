@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BidSignal PK is a source-linked daily ICT tender radar for Pakistani suppliers and integrators.">
+  <title>BidSignal PK — ICT tenders before they disappear</title>
+  <style>
+    :root { --ink:#10221d; --muted:#5e7169; --line:#d7e4de; --paper:#f6faf7; --card:#fff; --green:#086b4a; --mint:#d9f5e8; --yellow:#fff2c9; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.55 Inter,ui-sans-serif,system-ui,sans-serif; }
+    .shell { max-width:1120px; margin:auto; padding:28px 22px 70px; }
+    nav { display:flex; justify-content:space-between; align-items:center; gap:20px; }
+    .wordmark { font-size:13px; font-weight:900; letter-spacing:.12em; text-transform:uppercase; color:var(--green); }
+    nav a { color:var(--ink); text-decoration:none; font-size:14px; margin-left:18px; }
+    .hero { padding:92px 0 70px; display:grid; grid-template-columns:1.15fr .85fr; gap:55px; align-items:center; }
+    .kicker { color:var(--green); font-size:13px; text-transform:uppercase; letter-spacing:.1em; font-weight:900; }
+    h1 { font-size:clamp(42px,7vw,78px); line-height:.99; letter-spacing:-.055em; margin:15px 0 24px; max-width:760px; }
+    .lead { color:var(--muted); font-size:19px; max-width:690px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
+    .button { display:inline-block; border-radius:999px; padding:12px 17px; text-decoration:none; font-weight:800; border:1px solid var(--green); }
+    .button.primary { color:#fff; background:var(--green); }
+    .button.secondary { color:var(--green); background:transparent; }
+    .signal { border:1px solid var(--line); background:var(--card); border-radius:24px; padding:22px; box-shadow:0 18px 50px #0b4b3314; transform:rotate(1deg); }
+    .signal-head { display:flex; justify-content:space-between; color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+    .signal h2 { font-size:20px; line-height:1.2; margin:21px 0 9px; }
+    .signal p { color:var(--muted); margin:6px 0; font-size:14px; }
+    .meter { height:8px; background:#edf2ef; border-radius:99px; margin:17px 0 4px; overflow:hidden; }
+    .meter i { display:block; width:74%; height:100%; background:var(--green); border-radius:inherit; }
+    .tag { display:inline-block; background:var(--mint); color:var(--green); padding:4px 8px; border-radius:7px; font-size:11px; font-weight:800; margin:10px 5px 0 0; }
+    section { padding:65px 0; border-top:1px solid var(--line); }
+    h2.section-title { font-size:36px; line-height:1.05; letter-spacing:-.04em; margin:0 0 13px; }
+    .section-lede { color:var(--muted); max-width:670px; }
+    .three { display:grid; grid-template-columns:repeat(3,1fr); gap:15px; margin-top:30px; }
+    .tile { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:22px; }
+    .tile b { display:block; color:var(--green); font-size:13px; text-transform:uppercase; letter-spacing:.07em; }
+    .tile h3 { margin:12px 0 7px; font-size:20px; }
+    .tile p { color:var(--muted); margin:0; }
+    .pricing { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:30px; }
+    .plan { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:21px; display:flex; flex-direction:column; min-height:250px; }
+    .plan.featured { border:2px solid var(--green); }
+    .plan h3 { margin:0 0 5px; }
+    .price { font-size:30px; font-weight:900; letter-spacing:-.04em; }
+    .price small { font-size:13px; color:var(--muted); font-weight:500; }
+    .plan p { color:var(--muted); font-size:14px; flex:1; }
+    .proof { display:grid; grid-template-columns:1fr 1fr; gap:25px; align-items:start; }
+    blockquote { margin:0; background:var(--yellow); border-radius:20px; padding:25px; font-size:22px; line-height:1.2; letter-spacing:-.02em; }
+    .sources { color:var(--muted); font-size:14px; }
+    .sources a { color:var(--green); }
+    .fine { color:var(--muted); font-size:12px; margin-top:24px; }
+    footer { border-top:1px solid var(--line); padding-top:20px; color:var(--muted); font-size:13px; display:flex; justify-content:space-between; gap:20px; }
+    footer a { color:var(--green); }
+    @media (max-width:800px) { .hero,.proof { grid-template-columns:1fr; gap:30px; } .three { grid-template-columns:1fr; } .pricing { grid-template-columns:repeat(2,1fr); } nav a { margin-left:8px; } }
+    @media (max-width:520px) { .hero { padding-top:60px; } .pricing { grid-template-columns:1fr; } nav div:last-child { display:none; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <nav><div class="wordmark">BidSignal PK</div><div><a href="#how">How it works</a><a href="#self-service">Self-service</a><a href="#pricing">Pricing</a><a href="free-sample.md">Sample dashboard ↗</a></div></nav>
+    <main>
+      <div class="hero">
+        <div>
+          <div class="kicker">Pakistan ICT procurement intelligence</div>
+          <h1>See the bid before the deadline does.</h1>
+          <p class="lead">A focused public-source radar for IT resellers, network and security integrators, software houses, AI vendors and managed-service providers. One clean feed from official indexes—and earlier public procurement-plan signals—you do not have time to check all day.</p>
+          <div class="actions"><a class="button primary" href="free-sample.md">Read the free sample</a><a class="button secondary" href="#pricing">See subscription plans</a></div>
+          <p class="fine">Independent monitor. Not an official government portal, legal advice or bid-writing service.</p>
+        </div>
+        <div class="signal"><div class="signal-head"><span>Sample signal · 07 Sep 2026</span><span>74/100</span></div><h2>RFQ: Hardwares and Softwares</h2><p>Ministry of IT &amp; Telecommunication · closes 11 Sep 2026</p><div class="meter"><i></i></div><span class="tag">software/data</span><span class="tag">4 days left</span><span class="tag">official index</span><p style="margin-top:18px">Inference: likely fit for a software, hardware or systems-integration supplier. Verify the original notice before acting.</p></div>
+      </div>
+
+      <section id="how"><div class="kicker">Signal, not noise</div><h2 class="section-title">The narrow layer between an official portal and a bid team.</h2><p class="section-lede">BidSignal keeps the source link and removes the busywork: collecting, deduplicating, classifying, scoring, change-watching and archiving the opportunities most likely to fit an ICT supplier.</p><div class="three"><div class="tile"><b>01 · Collect</b><h3>Public indexes, once a day</h3><p>Federal PPRA/EPADS keyword views, PPRA procurement plans, MoITT, NITB and Ministry of Planning listing pages. No login, paywall bypass or attachment firehose.</p></div><div class="tile"><b>02 · Triage</b><h3>Fit, urgency and movement</h3><p>Whole-term category evidence, deadline urgency, displayed status, source confidence and new/updated/unchanged labels with planned demand kept separate.</p></div><div class="tile"><b>03 · Verify</b><h3>Every fact has a provenance trail</h3><p>Open the originating public listing, inspect the raw field values, and distinguish source facts from the product's keyword-based inference.</p></div></div></section>
+
+      <section id="self-service"><div class="kicker">Buyer-controlled setup</div><h2 class="section-title">Preview the fit before recurring access.</h2><p class="section-lede">The included profile package lets a buyer edit categories, terms, brands, regions and agencies, validate the file locally, and preview matches with reasons and exclusions. It accepts no passwords, tokens, payment data, portal logins or attachment requests.</p><div class="three"><div class="tile"><b>Profile</b><h3>One strict JSON contract</h3><p>Supplier preferences and delivery shape stay portable and inspectable. No hidden CRM or scraped contact list.</p></div><div class="tile"><b>Preview</b><h3>Evidence beside every match</h3><p>Fit, urgency, source links, warnings and candidate changes are visible before any recurring route is activated.</p></div><div class="tile"><b>Boundary</b><h3>Product access, not consulting</h3><p>Paid plans provide maintained signals, history and exports—not bid writing, eligibility decisions or outbound prospecting.</p></div></div><div class="actions"><a class="button secondary" href="buyer-package.md">Read the buyer package</a><a class="button secondary" href="free-sample.md">Open the sample issue</a></div></section>
+
+      <section id="pricing"><div class="kicker">Simple recurring access</div><h2 class="section-title">Less than one missed bid costs.</h2><p class="section-lede">Subscriptions buy a maintained feed and searchable history. They do not buy custom bid preparation or consulting hours.</p><div class="pricing"><div class="plan"><h3>Scout</h3><div class="price">$19 <small>/month</small></div><p>One supplier profile, weekly digest, five matched signals, source links and seven-day free archive.</p><a class="button secondary" href="free-sample.md">Preview feed</a></div><div class="plan featured"><h3>Operator</h3><div class="price">$49 <small>/month</small></div><p>Daily feed, five profiles, deadline triage, category filters, CSV/JSON/RSS export and 90-day archive.</p><a class="button primary" href="free-sample.md">Preview feed</a></div><div class="plan"><h3>Team</h3><div class="price">$99 <small>/month</small></div><p>Fifteen profiles, change/corrigendum tracking, shared workspace feed and one-year archive.</p><a class="button secondary" href="free-sample.md">Preview feed</a></div><div class="plan"><h3>Multi-sector</h3><div class="price">$199 <small>/month</small></div><p>Fifty profiles, all supported ICT categories and multi-user exports for procurement teams.</p><a class="button secondary" href="free-sample.md">Preview feed</a></div></div><p class="fine">Checkout activation is pending merchant/payout verification. Lemon Squeezy lists Pakistan bank payouts; Polar supports Pakistan payouts but its Google-OAuth onboarding is blocked on an unknown DOB. No checkout is claimed active.</p></section>
+
+      <section><div class="proof"><blockquote>“The official portal is where the truth lives. BidSignal is where the shortlist becomes usable.”</blockquote><div class="sources"><div class="kicker">Observed public evidence</div><p>PPRA's listing exposes thousands of active/recent federal notices, while current rows include WAN routers, laptops, servers and PABX. MoITT, NITB and Planning publish separate ICT indexes.</p><p><a href="https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=&amp;page=1&amp;tender_type=1">PPRA active tenders</a> · <a href="https://moitt.gov.pk/Tenders">MoITT tenders</a> · <a href="https://www.nitb.gov.pk/tender.html">NITB tenders</a> · <a href="https://pc.gov.pk/web/tender">Planning tenders</a></p><p>Broad coverage already sells locally: <a href="https://tenderalert.pk/our-services">TenderAlert.pk lists PKR 3,000/month</a>. BidSignal's narrower promise is less noise and more traceability for ICT suppliers.</p></div></div></section>
+    </main>
+    <footer><span>BidSignal PK · public-source procurement radar</span><span><a href="PRODUCT.md">Product brief</a> · <a href="sources.json">Source list</a> · <a href="buyer-package.md">Buyer package</a> · <a href="free-sample.json">RSS</a></span></footer>
+  </div>
+</body>
+</html>

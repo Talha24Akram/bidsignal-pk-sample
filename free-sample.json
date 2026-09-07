@@ -1,0 +1,1036 @@
+{
+  "schema_version": 2,
+  "product": "BidSignal PK",
+  "lane": "Pakistan public-sector ICT procurement intelligence",
+  "observed_at": "2026-09-07T20:17:11.507787+00:00",
+  "mode": "collect",
+  "freshness": "degraded",
+  "items": [
+    {
+      "source_id": "ppra-active-computer",
+      "source_name": "Federal PPRA / EPADS active tenders — computer",
+      "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+      "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012078E",
+      "tender_no": "TS0000012078E",
+      "title": "TENDER FOR PROCUREMENT OF FIREWALL DEVICES AND NETWORK SWITCH, COMPUTER SYSTEMS AND LAPTOP FOR PNSC VESSELS/TANKERS & FOR PNSC BUILDING (HEAD OFFICE) for details please visit: https://pnsc.com.pk/tenders The Pakistan National Shipping Corporation (MIS)... Info and Comm Tech P94066 Pakistan National Shipping Corporation (PNSC)",
+      "agency": "Pakistan National Shipping Corporation (PNSC) PNSC Karachi - Pakistan",
+      "location": "",
+      "status": "Published",
+      "published": "2026-08-24",
+      "closing": "2026-09-10T11:00:00+00:00",
+      "raw_text": "12 | TS0000012078E | TENDER FOR PROCUREMENT OF FIREWALL DEVICES AND NETWORK SWITCH, COMPUTER SYSTEMS AND LAPTOP FOR PNSC VESSELS/TANKERS & FOR PNSC BUILDING (HEAD OFFICE) for details please visit: https://pnsc.com.pk/tenders The Pakistan National Shipping Corporation (MIS)... Info and Comm Tech P94066 Pakistan National Shipping Corporation (PNSC) | Pakistan National Shipping Corporation (PNSC) PNSC Karachi - Pakistan | Published | Aug 24, 2026 | Sep 10, 2026 11:00 AM |",
+      "observed_at": "2026-09-07T20:17:14+00:00",
+      "collection_status": "live",
+      "source_confidence": 1.0,
+      "source_ids": [
+        "ppra-active-computer",
+        "ppra-active-network"
+      ],
+      "source_urls": [
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+      ],
+      "duplicate_count": 2,
+      "conflicting_observations": [
+        {
+          "source_id": "ppra-active-network",
+          "title": "TENDER FOR PROCUREMENT OF FIREWALL DEVICES AND NETWORK SWITCH, COMPUTER SYSTEMS AND LAPTOP FOR PNSC VESSELS/TANKERS & FOR PNSC BUILDING (HEAD OFFICE) for details please visit: https://pnsc.com.pk/tenders The Pakistan National Shipping Corporation (MIS)... Info and Comm Tech P94066 Pakistan National Shipping Corporation (PNSC)",
+          "status": "Published",
+          "closing": "2026-09-10T11:00:00+00:00",
+          "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012078E",
+          "document_url": null
+        }
+      ],
+      "categories": [
+        "network_security",
+        "hardware_end_user"
+      ],
+      "matched_keywords": {
+        "network_security": [
+          "network",
+          "switch",
+          "firewall"
+        ],
+        "hardware_end_user": [
+          "computer",
+          "laptop"
+        ]
+      },
+      "fit_evidence": {
+        "network_security": {
+          "title": [
+            "network",
+            "switch",
+            "firewall"
+          ],
+          "context": []
+        },
+        "hardware_end_user": {
+          "title": [
+            "computer",
+            "laptop"
+          ],
+          "context": []
+        }
+      },
+      "high_signal_keywords": [
+        "tender",
+        "procurement"
+      ],
+      "noise_keywords": [
+        "building"
+      ],
+      "primary_category": "network_security",
+      "days_to_close": 2,
+      "fit_score": 29,
+      "urgency_score": 30,
+      "status_score": 10,
+      "source_score": 10,
+      "change_score": 2,
+      "change_type": "unchanged",
+      "change_verified": false,
+      "change_reason": "listing fields match the previous snapshot",
+      "score_components": {
+        "fit": 29,
+        "urgency": 30,
+        "status": 10,
+        "source": 10,
+        "change": 2
+      },
+      "score": 81,
+      "priority": "high",
+      "data_quality_flags": [
+        "merged 2 public observations",
+        "possible non-ICT context: building"
+      ],
+      "facts": [
+        {
+          "field": "title",
+          "value": "TENDER FOR PROCUREMENT OF FIREWALL DEVICES AND NETWORK SWITCH, COMPUTER SYSTEMS AND LAPTOP FOR PNSC VESSELS/TANKERS & FOR PNSC BUILDING (HEAD OFFICE) for details please visit: https://pnsc.com.pk/tenders The Pakistan National Shipping Corporation (MIS)... Info and Comm Tech P94066 Pakistan National Shipping Corporation (PNSC)",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "agency",
+          "value": "Pakistan National Shipping Corporation (PNSC) PNSC Karachi - Pakistan",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "location",
+          "value": "",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "status",
+          "value": "Published",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "closing",
+          "value": "2026-09-10T11:00:00+00:00",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        }
+      ],
+      "inferences": [
+        {
+          "text": "Likely fit for a network integrator, security vendor, or OEM-authorized reseller; this is a keyword-based triage inference, not a statement of eligibility or award probability.",
+          "basis": {
+            "network_security": [
+              "network",
+              "switch",
+              "firewall"
+            ],
+            "hardware_end_user": [
+              "computer",
+              "laptop"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "ppra-active-computer",
+      "source_name": "Federal PPRA / EPADS active tenders — computer",
+      "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+      "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012036E",
+      "tender_no": "TS0000012036E",
+      "title": "PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. Repair/Maintenance 7/1/2026-27(general) Ministry of Interior and Narcotics Control",
+      "agency": "Ministry of Interior and Narcotics Control General Section Islamabad - Pakistan",
+      "location": "",
+      "status": "Published",
+      "published": "2026-08-22",
+      "closing": "2026-09-08T10:30:00+00:00",
+      "raw_text": "7 | TS0000012036E | PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. Repair/Maintenance 7/1/2026-27(general) Ministry of Interior and Narcotics Control | Ministry of Interior and Narcotics Control General Section Islamabad - Pakistan | Published | Aug 22, 2026 | Sep 08, 2026 10:30 AM |",
+      "observed_at": "2026-09-07T20:17:15+00:00",
+      "collection_status": "live",
+      "source_confidence": 1.0,
+      "source_ids": [
+        "ppra-active-computer",
+        "ppra-active-network",
+        "ppra-active-server"
+      ],
+      "source_urls": [
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1",
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=server&tender_type=1&page=1"
+      ],
+      "duplicate_count": 3,
+      "conflicting_observations": [
+        {
+          "source_id": "ppra-active-network",
+          "title": "PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. Repair/Maintenance 7/1/2026-27(general) Ministry of Interior and Narcotics Control",
+          "status": "Published",
+          "closing": "2026-09-08T10:30:00+00:00",
+          "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012036E",
+          "document_url": null
+        },
+        {
+          "source_id": "ppra-active-server",
+          "title": "PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. Repair/Maintenance 7/1/2026-27(general) Ministry of Interior and Narcotics Control",
+          "status": "Published",
+          "closing": "2026-09-08T10:30:00+00:00",
+          "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012036E",
+          "document_url": null
+        }
+      ],
+      "categories": [
+        "hardware_end_user",
+        "network_security",
+        "managed_services"
+      ],
+      "matched_keywords": {
+        "network_security": [
+          "router",
+          "firewall"
+        ],
+        "hardware_end_user": [
+          "computer",
+          "server",
+          "printer",
+          "scanner",
+          "equipment",
+          "it equipment"
+        ],
+        "managed_services": [
+          "maintenance",
+          "pre-qualification"
+        ]
+      },
+      "fit_evidence": {
+        "network_security": {
+          "title": [
+            "router",
+            "firewall"
+          ],
+          "context": []
+        },
+        "hardware_end_user": {
+          "title": [
+            "computer",
+            "server",
+            "printer",
+            "scanner",
+            "equipment",
+            "it equipment"
+          ],
+          "context": []
+        },
+        "managed_services": {
+          "title": [
+            "maintenance",
+            "pre-qualification"
+          ],
+          "context": []
+        }
+      },
+      "high_signal_keywords": [
+        "pre-qualification"
+      ],
+      "noise_keywords": [
+        "building",
+        "furniture",
+        "vehicle",
+        "stationery"
+      ],
+      "primary_category": "hardware_end_user",
+      "days_to_close": 0,
+      "fit_score": 26,
+      "urgency_score": 30,
+      "status_score": 10,
+      "source_score": 10,
+      "change_score": 2,
+      "change_type": "unchanged",
+      "change_verified": false,
+      "change_reason": "listing fields match the previous snapshot",
+      "score_components": {
+        "fit": 26,
+        "urgency": 30,
+        "status": 10,
+        "source": 10,
+        "change": 2
+      },
+      "score": 78,
+      "priority": "high",
+      "data_quality_flags": [
+        "merged 3 public observations",
+        "possible non-ICT context: building, furniture, vehicle, stationery"
+      ],
+      "facts": [
+        {
+          "field": "title",
+          "value": "PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. PRE-QUALIFICATION OF FIRMS/SERVICE PROVIDERS ETC FOR REPAIR/MAINTENANCE OF PHOTOSTAT MACHINES, COMPUTER, PRINTER, FAX MACHINE, SCANNER, ELECTRIC WATER COOLER, AIR CONDITIONERS, IT EQUIPMENT, SERVER, UT FIREWALL ROUTERS, NETWORKING, VEHICLES, MOTORCYCLE, FURNITURE/FIXTURE ITEMS AND ALL OTHER MACHINERY EQUIPMENT,BUILDING MAINTENANCE AND PRE-QUALIFICATION OF FIRMS FOR STATIONERY, MISCELLANEOUS ITEMS AND ALL OTHER ITEMS DURING THE FINANCIAL YEAR 2026-27. Repair/Maintenance 7/1/2026-27(general) Ministry of Interior and Narcotics Control",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "agency",
+          "value": "Ministry of Interior and Narcotics Control General Section Islamabad - Pakistan",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "location",
+          "value": "",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "status",
+          "value": "Published",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "closing",
+          "value": "2026-09-08T10:30:00+00:00",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        }
+      ],
+      "inferences": [
+        {
+          "text": "Likely fit for a hardware distributor, OEM-authorized reseller, or systems integrator; this is a keyword-based triage inference, not a statement of eligibility or award probability.",
+          "basis": {
+            "network_security": [
+              "router",
+              "firewall"
+            ],
+            "hardware_end_user": [
+              "computer",
+              "server",
+              "printer",
+              "scanner",
+              "equipment",
+              "it equipment"
+            ],
+            "managed_services": [
+              "maintenance",
+              "pre-qualification"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "ppra-active-computer",
+      "source_name": "Federal PPRA / EPADS active tenders — computer",
+      "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+      "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012070E",
+      "tender_no": "TS0000012070E",
+      "title": "Procurment of Computer Hardware and IT equipment Procurment of Computer Hardware and IT equipment Equipments P94327 Wafaqi Mohtasib (Ombudsman) Secretariat",
+      "agency": "Wafaqi Mohtasib (Ombudsman) Secretariat Wafaqi Mohtasib Secretariat Islamabad - Pakistan",
+      "location": "",
+      "status": "Published",
+      "published": "2026-08-24",
+      "closing": "2026-09-10T11:00:00+00:00",
+      "raw_text": "17 | TS0000012070E | Procurment of Computer Hardware and IT equipment Procurment of Computer Hardware and IT equipment Equipments P94327 Wafaqi Mohtasib (Ombudsman) Secretariat | Wafaqi Mohtasib (Ombudsman) Secretariat Wafaqi Mohtasib Secretariat Islamabad - Pakistan | Published | Aug 24, 2026 | Sep 10, 2026 11:00 AM |",
+      "observed_at": "2026-09-07T20:17:12+00:00",
+      "collection_status": "live",
+      "source_confidence": 1.0,
+      "source_ids": [
+        "ppra-active-computer"
+      ],
+      "source_urls": [
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+      ],
+      "duplicate_count": 1,
+      "categories": [
+        "hardware_end_user"
+      ],
+      "matched_keywords": {
+        "hardware_end_user": [
+          "computer",
+          "hardware",
+          "equipment",
+          "it equipment"
+        ]
+      },
+      "fit_evidence": {
+        "hardware_end_user": {
+          "title": [
+            "computer",
+            "hardware",
+            "equipment",
+            "it equipment"
+          ],
+          "context": []
+        }
+      },
+      "high_signal_keywords": [],
+      "noise_keywords": [],
+      "primary_category": "hardware_end_user",
+      "days_to_close": 2,
+      "fit_score": 26,
+      "urgency_score": 30,
+      "status_score": 10,
+      "source_score": 10,
+      "change_score": 2,
+      "change_type": "unchanged",
+      "change_verified": false,
+      "change_reason": "listing fields match the previous snapshot",
+      "score_components": {
+        "fit": 26,
+        "urgency": 30,
+        "status": 10,
+        "source": 10,
+        "change": 2
+      },
+      "score": 78,
+      "priority": "high",
+      "data_quality_flags": [],
+      "facts": [
+        {
+          "field": "title",
+          "value": "Procurment of Computer Hardware and IT equipment Procurment of Computer Hardware and IT equipment Equipments P94327 Wafaqi Mohtasib (Ombudsman) Secretariat",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "agency",
+          "value": "Wafaqi Mohtasib (Ombudsman) Secretariat Wafaqi Mohtasib Secretariat Islamabad - Pakistan",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "location",
+          "value": "",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "status",
+          "value": "Published",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        },
+        {
+          "field": "closing",
+          "value": "2026-09-10T11:00:00+00:00",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1"
+        }
+      ],
+      "inferences": [
+        {
+          "text": "Likely fit for a hardware distributor, OEM-authorized reseller, or systems integrator; this is a keyword-based triage inference, not a statement of eligibility or award probability.",
+          "basis": {
+            "hardware_end_user": [
+              "computer",
+              "hardware",
+              "equipment",
+              "it equipment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "ppra-active-network",
+      "source_name": "Federal PPRA / EPADS active tenders — network",
+      "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1",
+      "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012172E",
+      "tender_no": "TS0000012172E",
+      "title": "Procurement of Network Routers Equipments RFB-71 Ministry of Finance",
+      "agency": "Ministry of Finance Controller General of Accounts (CGA) Online Billing Solution Project DG MIS Islamabad - Pakistan",
+      "location": "",
+      "status": "Published Corrigendum",
+      "published": "2026-08-24",
+      "closing": "2026-09-09T11:00:00+00:00",
+      "raw_text": "13 | TS0000012172E | Procurement of Network Routers Equipments RFB-71 Ministry of Finance | Ministry of Finance Controller General of Accounts (CGA) Online Billing Solution Project DG MIS Islamabad - Pakistan | Published Corrigendum | Aug 24, 2026 | Sep 09, 2026 11:00 AM |",
+      "observed_at": "2026-09-07T20:17:14+00:00",
+      "collection_status": "live",
+      "source_confidence": 1.0,
+      "source_ids": [
+        "ppra-active-network"
+      ],
+      "source_urls": [
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+      ],
+      "duplicate_count": 1,
+      "categories": [
+        "network_security",
+        "hardware_end_user"
+      ],
+      "matched_keywords": {
+        "network_security": [
+          "network",
+          "router"
+        ],
+        "hardware_end_user": [
+          "equipment"
+        ]
+      },
+      "fit_evidence": {
+        "network_security": {
+          "title": [
+            "network",
+            "router"
+          ],
+          "context": []
+        },
+        "hardware_end_user": {
+          "title": [
+            "equipment"
+          ],
+          "context": []
+        }
+      },
+      "high_signal_keywords": [
+        "procurement"
+      ],
+      "noise_keywords": [],
+      "primary_category": "network_security",
+      "days_to_close": 1,
+      "fit_score": 25,
+      "urgency_score": 30,
+      "status_score": 10,
+      "source_score": 10,
+      "change_score": 2,
+      "change_type": "unchanged",
+      "change_verified": false,
+      "change_reason": "listing fields match the previous snapshot",
+      "score_components": {
+        "fit": 25,
+        "urgency": 30,
+        "status": 10,
+        "source": 10,
+        "change": 2
+      },
+      "score": 77,
+      "priority": "high",
+      "data_quality_flags": [],
+      "facts": [
+        {
+          "field": "title",
+          "value": "Procurement of Network Routers Equipments RFB-71 Ministry of Finance",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "agency",
+          "value": "Ministry of Finance Controller General of Accounts (CGA) Online Billing Solution Project DG MIS Islamabad - Pakistan",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "location",
+          "value": "",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "status",
+          "value": "Published Corrigendum",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "closing",
+          "value": "2026-09-09T11:00:00+00:00",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        }
+      ],
+      "inferences": [
+        {
+          "text": "Likely fit for a network integrator, security vendor, or OEM-authorized reseller; this is a keyword-based triage inference, not a statement of eligibility or award probability.",
+          "basis": {
+            "network_security": [
+              "network",
+              "router"
+            ],
+            "hardware_end_user": [
+              "equipment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "source_id": "ppra-active-network",
+      "source_name": "Federal PPRA / EPADS active tenders — network",
+      "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1",
+      "detail_url": "https://epms.ppra.gov.pk/public/tenders/tender-details/TS0000012516E",
+      "tender_no": "TS0000012516E",
+      "title": "INVITATION TO e-BIDS EXTENSION OF OFC NETWORK/PABX TELEPHONE EXCHANGE WITH TELEPHONE SETS AND BLOCK WIRING (1). EXTENSION OF EXISTING OFC NETWORK FOR... Info and Comm Tech Dir-NTC/25-38/T.E./2026-27 (V) National Telecommunication Corporation (NTC)",
+      "agency": "National Telecommunication Corporation (NTC) National Telecommunication Corporation (NTC) Islamabad - Pakistan",
+      "location": "",
+      "status": "Published",
+      "published": "2026-09-01",
+      "closing": "2026-09-18T10:30:00+00:00",
+      "raw_text": "9 | TS0000012516E | INVITATION TO e-BIDS EXTENSION OF OFC NETWORK/PABX TELEPHONE EXCHANGE WITH TELEPHONE SETS AND BLOCK WIRING (1). EXTENSION OF EXISTING OFC NETWORK FOR... Info and Comm Tech Dir-NTC/25-38/T.E./2026-27 (V) National Telecommunication Corporation (NTC) | National Telecommunication Corporation (NTC) National Telecommunication Corporation (NTC) Islamabad - Pakistan | Published | Sep 01, 2026 | Sep 18, 2026 10:30 AM |",
+      "observed_at": "2026-09-07T20:17:14+00:00",
+      "collection_status": "live",
+      "source_confidence": 1.0,
+      "source_ids": [
+        "ppra-active-network"
+      ],
+      "source_urls": [
+        "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+      ],
+      "duplicate_count": 1,
+      "categories": [
+        "telecom_infrastructure",
+        "network_security"
+      ],
+      "matched_keywords": {
+        "network_security": [
+          "network",
+          "pabx"
+        ],
+        "telecom_infrastructure": [
+          "telecommunication",
+          "telephone",
+          "exchange"
+        ]
+      },
+      "fit_evidence": {
+        "network_security": {
+          "title": [
+            "network",
+            "pabx"
+          ],
+          "context": []
+        },
+        "telecom_infrastructure": {
+          "title": [
+            "telecommunication",
+            "telephone",
+            "exchange"
+          ],
+          "context": []
+        }
+      },
+      "high_signal_keywords": [
+        "bid"
+      ],
+      "noise_keywords": [],
+      "primary_category": "telecom_infrastructure",
+      "days_to_close": 10,
+      "fit_score": 33,
+      "urgency_score": 20,
+      "status_score": 10,
+      "source_score": 10,
+      "change_score": 2,
+      "change_type": "unchanged",
+      "change_verified": false,
+      "change_reason": "listing fields match the previous snapshot",
+      "score_components": {
+        "fit": 33,
+        "urgency": 20,
+        "status": 10,
+        "source": 10,
+        "change": 2
+      },
+      "score": 75,
+      "priority": "high",
+      "data_quality_flags": [],
+      "facts": [
+        {
+          "field": "title",
+          "value": "INVITATION TO e-BIDS EXTENSION OF OFC NETWORK/PABX TELEPHONE EXCHANGE WITH TELEPHONE SETS AND BLOCK WIRING (1). EXTENSION OF EXISTING OFC NETWORK FOR... Info and Comm Tech Dir-NTC/25-38/T.E./2026-27 (V) National Telecommunication Corporation (NTC)",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "agency",
+          "value": "National Telecommunication Corporation (NTC) National Telecommunication Corporation (NTC) Islamabad - Pakistan",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "location",
+          "value": "",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "status",
+          "value": "Published",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        },
+        {
+          "field": "closing",
+          "value": "2026-09-18T10:30:00+00:00",
+          "source_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1"
+        }
+      ],
+      "inferences": [
+        {
+          "text": "Likely fit for a telecom/network infrastructure supplier; this is a keyword-based triage inference, not a statement of eligibility or award probability.",
+          "basis": {
+            "network_security": [
+              "network",
+              "pabx"
+            ],
+            "telecom_infrastructure": [
+              "telecommunication",
+              "telephone",
+              "exchange"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "collector_logs": [
+    {
+      "source_id": "ppra-active-computer-p1",
+      "canonical_source_id": "ppra-active-computer",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:11+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 704844,
+      "sha256": "a4b4d44135539099e5584748dfadba3db53ba553e142c26cd4a456f37f9c55d3",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=1",
+      "outcome": "fetched",
+      "items_parsed": 25
+    },
+    {
+      "source_id": "ppra-active-computer-p2",
+      "canonical_source_id": "ppra-active-computer",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:12+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513658,
+      "sha256": "3d11c442a41736a0900ffdddf3373cd54582a4b09bf3fc64e8b35099b2528ff1",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=computer&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-software-p1",
+      "canonical_source_id": "ppra-active-software",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=software&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:12+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 579073,
+      "sha256": "c48610d36b64c03c78c331b635359ed1239817286e418346c09b8ab5a5281482",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=software&tender_type=1&page=1",
+      "outcome": "fetched",
+      "items_parsed": 10
+    },
+    {
+      "source_id": "ppra-active-software-p2",
+      "canonical_source_id": "ppra-active-software",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=software&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:13+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513658,
+      "sha256": "a7deefb3401bccbffe4a2cf8c7372e8a6dc53131a2693beafbc1f857ebb47ef3",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=software&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-network-p1",
+      "canonical_source_id": "ppra-active-network",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:14+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 639715,
+      "sha256": "5c7a7b87742d3eea94979343aa9b146b50019f6259a03aa8c723be9b7c7398ff",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=1",
+      "outcome": "fetched",
+      "items_parsed": 19
+    },
+    {
+      "source_id": "ppra-active-network-p2",
+      "canonical_source_id": "ppra-active-network",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:14+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513656,
+      "sha256": "bb672019e580cb86b8c59c92ab8b9c6b90380fed82524fe2d70bf47322a2f25e",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=network&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-server-p1",
+      "canonical_source_id": "ppra-active-server",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=server&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:15+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 573193,
+      "sha256": "ac2333261de294897eac67b09d8c72d770fe6b7bb2cffb53eaac8f163809965f",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=server&tender_type=1&page=1",
+      "outcome": "fetched",
+      "items_parsed": 9
+    },
+    {
+      "source_id": "ppra-active-server-p2",
+      "canonical_source_id": "ppra-active-server",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=server&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:15+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513653,
+      "sha256": "2fd5dce4e55dacba6d61b3aeab4aebeb85aaeb131ae771d646dcee1e0000c9d5",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=server&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-cybersecurity-p1",
+      "canonical_source_id": "ppra-active-cybersecurity",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cybersecurity&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:15+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513667,
+      "sha256": "de6187bd992f735c15a4516af5a72dd5d5b23412617ac0b61c5c6113341155c7",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cybersecurity&tender_type=1&page=1",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-cybersecurity-p2",
+      "canonical_source_id": "ppra-active-cybersecurity",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cybersecurity&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:16+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513667,
+      "sha256": "14a132f49e31715419fff8c5896f3828399c16134b974de786961dbee2545049",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cybersecurity&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-cloud-p1",
+      "canonical_source_id": "ppra-active-cloud",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cloud&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:16+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513651,
+      "sha256": "7e266f8ea35c1feb00847241256a79ce7fc712177c599d4c264f1a1c6ac17f7e",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cloud&tender_type=1&page=1",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-cloud-p2",
+      "canonical_source_id": "ppra-active-cloud",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cloud&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:17+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513651,
+      "sha256": "2b757f21d259829c8b435c1eaf658fac809cda70f75e17e4c6fb341cb1998ceb",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=cloud&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-telecom-p1",
+      "canonical_source_id": "ppra-active-telecom",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=telecom&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:17+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 560062,
+      "sha256": "6b93309db6e3f432a8cdfd494bd1a541a2643aa8c881262de858009aab759049",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=telecom&tender_type=1&page=1",
+      "outcome": "fetched",
+      "items_parsed": 6
+    },
+    {
+      "source_id": "ppra-active-telecom-p2",
+      "canonical_source_id": "ppra-active-telecom",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=telecom&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:18+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513655,
+      "sha256": "069f9ac798a61185e82aea4e45c8223a14632b6a992acc77c114f61aa7adedf2",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=telecom&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-data-p1",
+      "canonical_source_id": "ppra-active-data",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=data&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:18+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 633898,
+      "sha256": "0dc25db4822334ca6ff6fdd8bcdac1efe068bbbbab546b4bf918ceea18b2ea14",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=data&tender_type=1&page=1",
+      "outcome": "fetched",
+      "items_parsed": 17
+    },
+    {
+      "source_id": "ppra-active-data-p2",
+      "canonical_source_id": "ppra-active-data",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=data&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:19+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513650,
+      "sha256": "71aec4f362e017bacd7b3db77d1c01d3f60bdf5e5dc8c7c5f341a57ab4a74914",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=data&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-information-system-p1",
+      "canonical_source_id": "ppra-active-information-system",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=information+system&tender_type=1&page=1",
+      "fetched_at": "2026-09-07T20:17:19+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513677,
+      "sha256": "35744db892584731ef4a0881b2e8a4fff2f651e565ea146618e32051f42027c3",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=information+system&tender_type=1&page=1",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-active-information-system-p2",
+      "canonical_source_id": "ppra-active-information-system",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=information+system&tender_type=1&page=2",
+      "fetched_at": "2026-09-07T20:17:19+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 513677,
+      "sha256": "8dfe17ea51b6388b82b977c4b4a6ce404b10b7c1dcaf01588798958dd0d28128",
+      "final_url": "https://epms.ppra.gov.pk/public/tenders/active-tenders?keyword=information+system&tender_type=1&page=2",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    },
+    {
+      "source_id": "ppra-procurement-plans",
+      "canonical_source_id": "ppra-procurement-plans",
+      "page": 1,
+      "url": "https://epms.ppra.gov.pk/public/procurement-plans",
+      "fetched_at": "2026-09-07T20:17:20+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 565796,
+      "sha256": "854e2ecb2cd0b6f1905a9eef898da860d2e562c534be3b39fe22c8274e24ff69",
+      "final_url": "https://epms.ppra.gov.pk/public/procurement-plans",
+      "outcome": "fetched",
+      "items_parsed": 100
+    },
+    {
+      "source_id": "ppra-procurement-plans-p2",
+      "canonical_source_id": "ppra-procurement-plans",
+      "page": 2,
+      "url": "https://epms.ppra.gov.pk/public/procurement-plans?page=2",
+      "fetched_at": "2026-09-07T20:17:20+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 319440,
+      "sha256": "060482e72518e07a00d5d94d4a6d00e0cddd0391cf548e0f05049d72eddb2857",
+      "final_url": "https://epms.ppra.gov.pk/public/procurement-plans?page=2",
+      "outcome": "fetched",
+      "items_parsed": 53
+    },
+    {
+      "source_id": "moitt-tenders",
+      "canonical_source_id": "moitt-tenders",
+      "page": 1,
+      "url": "https://moitt.gov.pk/Tenders",
+      "fetched_at": "2026-09-07T20:17:21+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 40720,
+      "sha256": "a650a24a24980de0a223035e942fb48524dc1585feee1ff5986db15f259cd305",
+      "final_url": "https://moitt.gov.pk/Tenders",
+      "outcome": "fetched",
+      "items_parsed": 21
+    },
+    {
+      "source_id": "nitb-tenders",
+      "canonical_source_id": "nitb-tenders",
+      "page": 1,
+      "url": "https://www.nitb.gov.pk/tender.html",
+      "fetched_at": "2026-09-07T20:17:23+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 87306,
+      "sha256": "d3bb618be87895a4a2fb7120f36ff3c1460a9633512706683bd2be3716378416",
+      "final_url": "https://www.nitb.gov.pk/tender.html",
+      "outcome": "fetched",
+      "items_parsed": 87
+    },
+    {
+      "source_id": "planning-tenders",
+      "canonical_source_id": "planning-tenders",
+      "page": 1,
+      "url": "https://pc.gov.pk/web/tender",
+      "fetched_at": "2026-09-07T20:17:23+00:00",
+      "status": 200,
+      "attempts": 1,
+      "bytes": 424063,
+      "sha256": "b8f3a6b68553c3aeac61fd226bfa6fad2532527aceb8c595afff63cfe1056c05",
+      "final_url": "https://pc.gov.pk/web/tender",
+      "outcome": "empty",
+      "items_parsed": 0,
+      "fallback_items": 0
+    }
+  ],
+  "score_definition": {
+    "fit": "0-40",
+    "urgency": "0-30",
+    "status": "0-10",
+    "source": "0-10",
+    "change": "0-10"
+  },
+  "note": "Free sample: five highest-ranked public listings with provenance, fit evidence, deadline triage and change labels. Paid plans add saved profiles, daily refresh, archive and deadline/change alerts.",
+  "sample_boundary": {
+    "included": [
+      "source link",
+      "raw listing facts",
+      "triage score",
+      "change label"
+    ],
+    "reserved": [
+      "saved buyer profiles",
+      "full archive",
+      "recurring alerts",
+      "CSV/JSON/RSS delivery"
+    ]
+  }
+}
