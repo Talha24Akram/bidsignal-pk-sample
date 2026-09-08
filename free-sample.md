@@ -1,4 +1,4 @@
-# BidSignal PK — ICT tender radar / 2026-09-07
+# BidSignal PK — ICT tender radar / 2026-09-08
 
 > Independent public-source monitoring for Pakistan ICT suppliers. This is a discovery aid, not an official notice, bid advice, or guarantee of eligibility.
 
